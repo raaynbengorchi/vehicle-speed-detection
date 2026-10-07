@@ -1,0 +1,44 @@
+# See https://git-scm.com/docs/gitignore
+# For more on how to configure gitignore see https://github.com/github/gitignore
+
+# dependencies
+node_modules/
+/pnpm-lock.yaml
+/yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Expo
+.expo/
+
+# Docker
+.dockerignore
+
+# Production
+/.next/
+/out/
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuild manifest
+
+# Swagger
+swagger/
+
+# Logs
+logs/
+*.log
+
+# Runtime cache
+/hot-websocket.log
+/*.hot-reload*.js
+
+# Vercel
+.vercel/
+
+# OS
+.DS_Store
+```
